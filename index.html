@@ -16,13 +16,16 @@ body {
 /* Style the header */
 .header {
   
-  padding:30px;
-  padding-top:90px;
+   padding-top:90px;
   font-family:roboto;
   font-weight:bold;
   font-size:110px;
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 2px 2px 4px white;
   margin-bottom:60px;
+      color:black;
+     padding-left:5%;
+      padding-top:90px;
+      text-shadow: 2px 2px 4px grey;
 }
 
 
@@ -165,8 +168,7 @@ ul.icons > li:last-child {
 }
 
 #nav-menu{
-  position: absolute;
-  right:0;
+   right:0;
   transform: translateY(10%);
   opacity: 0%;
   transition: all .2s;
@@ -189,7 +191,21 @@ ul.icons > li:last-child {
   background: linear-gradient(45deg, #314059 0%, #3d557d 100%);
 
 }
+.begin {
+      height:100%;
+  margin:0px;
+  padding:0px;
+  background-color: #f1f1f1;
+    background-image: url("https://i.imgur.com/unVa3p6.png");
 
+  /* Set a specific height */
+ 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #deployable-menu li{
   margin: 0;
 }
@@ -216,7 +232,7 @@ ul.icons > li:last-child {
 
 #deployable-menu button{
   margin:1em;
-  font-size: 2em;
+  font-size: 30px;
   color: white;
   background: none;
   border: none;
@@ -254,7 +270,7 @@ ul.icons > li:last-child {
     width: 90%;
     margin: 0 auto;
   }
-  
+ 
   #nav-menu {
     opacity: 0%;
   }
@@ -273,6 +289,8 @@ ul.icons > li:last-child {
     opacity:0%;
   }
   
+ 
+  
   #nav-menu {
     opacity: 100%;
   }
@@ -281,21 +299,7 @@ ul.icons > li:last-child {
     opacity: 100%;
   }
 }
-.begin {
-      height:100%;
-  margin:0px;
-  padding:0px;
-  background-color: #f1f1f1;
-    background-image: url("https://i.imgur.com/unVa3p6.png");
 
-  /* Set a specific height */
- 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .subtitle {
     margin-left:20px;
     font-family:arial;
@@ -318,12 +322,12 @@ ul.icons > li:last-child {
   background-size: cover;
 }
 #contenttext1 {
-    color:black;
+color:black;
     margin-top:200px;
     font-size:30px;
     font-family:arial;
-    padding-right:10%;
-  margin:20px;
+      padding:20px;
+    padding-right:5%;
 }
 
 #content2 {
@@ -372,8 +376,9 @@ ul.icons > li:last-child {
     margin-top:200px;
     font-size:30px;
     font-family:arial;
+      padding:20px;
     padding-right:5%;
-  margin:20px;
+
 }
 
 </style>
